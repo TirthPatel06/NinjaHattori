@@ -24,10 +24,8 @@ body{
 	text-align: center;
 	font-family: 'Alata', sans-serif;
 	background-color: black;
-	margin-top: 15vw;
+	margin-top: 14vh;
 	font-size: 3rem;
-	/*box-shadow: 5px 5px 5px 5px red;*/
-	/*text-shadow: 2px 2px 5px red;*/
 	width: 50vw;
 	border-radius: 10px;
 	border:5px dotted brown;
@@ -35,6 +33,23 @@ body{
 	margin-left: 320px;
 	color: transparent;
 	padding: 15px 30px;
+}
+
+.instruction {
+    color: wheat;
+    visibility: hidden;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    background-color: black;
+    margin-top: 40vh;
+    font-size: 3rem;
+    width: 50vw;
+    border-radius: 10px;
+    border: 5px dotted brown;
+    position: absolute;
+    margin-left: 320px;
+    color: transparent;
+    padding: 15px 30px;
 }
 
 .ninja{
@@ -80,8 +95,6 @@ body{
     padding: 15px 10px; 
     font-size: 40px;
     text-align: center; 
-    /*font-family: 'Ubuntu', sans-serif;*/
-    /*font-family: 'Londrina Solid', cursive;*/
     font-family: 'Lobster', cursive;
 }
 
