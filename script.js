@@ -43,8 +43,10 @@ setInterval(() => {
     if (offsetX < 73 && offsetY < 52) {
         gameOver.innerHTML = "Oops! Better Luck Next Time";
         gameOvery = document.querySelector('.gameOvery');
+        instruction = document.querySelector('.instuction');
         container = document.querySelector('.gameContainer');
         gameOvery.style.visibility = 'visible';
+        instruction.style.visibility = 'visible';
         container.style.backgroundImage = 'linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(nhome.jpg)';
         obstacle.classList.remove('obstacleAni');
         setTimeout(() => {
